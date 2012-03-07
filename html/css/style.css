@@ -25,7 +25,7 @@ body {
 }
 
 .header .right-menu {
-  margin: 40px 0;
+  margin: 50px 0 30px;
 }
 
 .header .right-menu a:link, .header .right-menu a:visited {
