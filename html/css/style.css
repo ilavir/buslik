@@ -64,9 +64,47 @@ body {
   z-index: 10;
 }
 
+.header .search-cont {
+  padding-top: 8px;
+}
+
+.header .search-cont input {
+  float: left;
+  width: 200px;
+  border: solid 1px #ebf4f7;
+  margin-top: 2px;
+  padding: 6px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 1px 2px #d8eaef inset;
+  -moz-box-shadow: 0 1px 2px #d8eaef inset;
+  box-shadow: 0 1px 2px #d8eaef inset;
+  outline: none;
+}
+
+.header .search-cont a:link, .header .search-cont a:visited {
+  float: right;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url('../images/button-search.png') no-repeat top left;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.header .search-cont a:hover, .header .search-cont a:active {
+  background-position: 0 -47px;
+}
+
+/* первое верхнее меню */
 .header .header-menu-first-cont {
   margin-left: 255px;
   padding-top: 70px;
+}
+
+.header .header-menu-first {
+
 }
 
 .header .header-menu-first li {
@@ -92,6 +130,7 @@ body {
   box-shadow: 0 1px 2px #cee5da;
 }
 
+/* /первое верхнее меню */
 /* второе меню сверху */
 .header .header-menu-second-cont {
   position: relative;
@@ -208,24 +247,8 @@ body {
 }
 
 .hotline-cont a.button-quest:link, .hotline-cont a.button-quest:visited {
-  display: inline-block;
   float: left;
-  color: #fff;
-  padding: 3px 15px;
-  font: bold 14px Arial;
-  text-align: center;
-  text-decoration: none;
-  background: #f36c69;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-.hotline-cont a.button-quest:hover, .hotline-cont a.button-quest:active {
-  background: #f1524f;
-  -webkit-box-shadow: 0 0 10px #ffc000 inset;
-  -moz-box-shadow: 0 0 10px #ffc000 inset;
-  box-shadow: 0 0 10px #ffc000 inset;
+  padding: 3px 15px !important;
 }
 
 .hotline-cont .button-archive {
@@ -242,6 +265,56 @@ body {
 }
 
 /* /горячая линия */
+.main-photogal {
+  margin-top: 20px;
+  height: 335px;
+  background: url('../images/photogal-main.png') no-repeat top;
+}
+
+.main-photogal .button-main-photogal {
+  margin: 240px 0 0 10px;
+}
+
+.button-red, .button-red:link, .button-red:visited {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 15px;
+  font: bold 14px Arial;
+  text-align: center;
+  text-decoration: none;
+  background: #f36c69;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.button-red:hover, .button-red:active {
+  background: #f1524f;
+  -webkit-box-shadow: 0 0 10px #ffc000 inset;
+  -moz-box-shadow: 0 0 10px #ffc000 inset;
+  box-shadow: 0 0 10px #ffc000 inset;
+}
+
+.button-green, a.button-green:link, a.button-green:visited {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 15px;
+  font: bold 14px Arial;
+  text-align: center;
+  text-decoration: none;
+  background: #b2c62e;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.button-green:hover, a.button-green:active {
+  background: #a5bc09;
+  -webkit-box-shadow: 0 0 10px #ffc000 inset;
+  -moz-box-shadow: 0 0 10px #ffc000 inset;
+  box-shadow: 0 0 10px #ffc000 inset;
+}
+
 /* советы педиатра */
 .advice-title {
   color: #236187;
@@ -437,33 +510,20 @@ body {
   padding: 20px 20px 5px;
 }
 
+.main-poll-cont .choises li {
+  margin-bottom: 15px;
+}
+
 .main-poll-cont .choises .radio {
   position: relative;
   top: 2px;
-  margin: 0 15px 15px;
+  margin: 0 15px;
 }
 
 .main-poll-cont .submit {
   border: solid 1px transparent;
-  display: inline-block;
-  color: #fff;
-  padding: 10px 15px;
-  font: bold 14px Arial;
-  text-align: center;
-  text-decoration: none;
-  background: #b2c62e;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
   cursor: pointer;
   margin: 0 0 20px 20px;
-}
-
-.main-poll-cont .submit:hover {
-  background: #a5bc09;
-  -webkit-box-shadow: 0 0 10px #ffc000 inset;
-  -moz-box-shadow: 0 0 10px #ffc000 inset;
-  box-shadow: 0 0 10px #ffc000 inset;
 }
 
 /* /голосование */
@@ -528,6 +588,14 @@ body {
 .footer-brands .inner-cont {
   width: 1138px;
   margin: 10px auto 10px;
+}
+
+.footer-brands ul.brands-logos {
+  display: none;
+}
+
+.footer-brands .solid-raz-brown {
+  display: none;
 }
 
 .footer-brands ul.brands-logos li {
