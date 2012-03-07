@@ -211,6 +211,13 @@ body {
   border-radius: 15px;
 }
 
+.bg-rounded {
+  border: solid 2px transparent;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
 /* горячая линия */
 .hotline-cont {
   height: 177px;
@@ -218,6 +225,7 @@ body {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  margin-bottom: 130px;
 }
 
 .hotline-cont .title {
@@ -320,7 +328,6 @@ body {
   color: #236187;
   font: normal 24px Arial;
   padding: 3px 10px;
-  margin-top: 40px;
 }
 
 .advice-main-item {
@@ -529,6 +536,59 @@ body {
 /* /голосование */
 /* центр главной */
 /* /стили на главной */
+/* стили каталога */
+.white-bg {
+  background: #fff;
+}
+
+.catalog-cont {
+  margin-top: 15px;
+}
+
+.catalog-title-other {
+  height: 102px;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-bottom: dotted 1px #a4e2f2;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  border-radius: 15px 15px 0 0;
+  background: url('../images/visual-bg2.jpg') no-repeat left top;
+}
+
+.catalog-title-other .inner-cont {
+  height: 102px;
+  background: url('../images/visual-white-transp.png');
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.catalog-cont .content-cont {
+  margin: 0 10px 0 20px;
+}
+
+.catalog-cont .pager-cont {
+  border-top: dotted 1px #a4e2f2;
+  border-bottom: dotted 1px #a4e2f2;
+  padding: 5px 0;
+}
+
+.catalog-cont a.allin {
+  float: left;
+}
+
+.catalog-cont .catalog-pager {
+  float: left;
+}
+
+.catalog-cont .catalog-pager li {
+  float: left;
+  margin: 0 5px;
+}
+
+/* стили каталога */
 .dashed-raz-brown {
   height: 20px;
   border-top: dashed 1px #c9bf99;
