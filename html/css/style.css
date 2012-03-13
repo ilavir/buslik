@@ -543,6 +543,9 @@ body {
 
 .catalog-cont {
   margin-top: 15px;
+  -webkit-box-shadow: 0 3px 5px #efe6c5;
+  -moz-box-shadow: 0 3px 5px #efe6c5;
+  box-shadow: 0 3px 5px #efe6c5;
 }
 
 .catalog-title-other {
@@ -569,26 +572,125 @@ body {
   margin: 0 10px 0 20px;
 }
 
+/* листалка */
 .catalog-cont .pager-cont {
   border-top: dotted 1px #a4e2f2;
   border-bottom: dotted 1px #a4e2f2;
   padding: 5px 0;
 }
 
-.catalog-cont a.allin {
+.catalog-cont a.allin:link, .catalog-cont a.allin:visited {
   float: left;
+  margin-top: 2px;
+  color: #a28433;
+  text-decoration: underline;
 }
 
 .catalog-cont .catalog-pager {
   float: left;
+  margin: 0 10px;
+  padding: 0 5px;
+  border-left: dotted 1px #a4e2f2;
+  border-right: dotted 1px #a4e2f2;
 }
 
 .catalog-cont .catalog-pager li {
   float: left;
   margin: 0 5px;
+  color: #dcc17a;
+  font: normal 18px Arial;
 }
 
-/* стили каталога */
+.catalog-cont .catalog-pager li.pager-active {
+  color: #dcc17a;
+  font: normal 18px Arial;
+}
+
+.catalog-cont .catalog-pager li.pager-prev a:link, .catalog-cont .catalog-pager li.pager-prev a:visited,
+.catalog-cont .catalog-pager li.pager-next a:link, .catalog-cont .catalog-pager li.pager-next a:visited {
+  display: inline-block;
+  width: 16px;
+  height: 19px;
+  background-position: 0 0;
+  text-indent: -9999px;
+}
+
+.catalog-cont .catalog-pager li.pager-prev a:link, .catalog-cont .catalog-pager li.pager-prev a:visited {
+  background: url('../images/arrow-pager-left.png') no-repeat;
+}
+
+.catalog-cont .catalog-pager li.pager-next a:link, .catalog-cont .catalog-pager li.pager-next a:visited {
+  background: url('../images/arrow-pager-right.png') no-repeat;
+}
+
+.catalog-cont .catalog-pager li.pager-prev a:hover, .catalog-cont .catalog-pager li.pager-prev a:active,
+.catalog-cont .catalog-pager li.pager-next a:hover, .catalog-cont .catalog-pager li.pager-next a:active {
+  background-position: 0 -30px;
+}
+
+.catalog-cont .catalog-pager li a:link, .catalog-cont .catalog-pager li a:visited {
+  color: #a28433;
+  font: normal 18px Arial;
+  text-decoration: underline;
+}
+
+.catalog-cont a.allin:hover, .catalog-cont a.allin:active,
+.catalog-cont .catalog-pager li a:hover, .catalog-cont .catalog-pager li a:active {
+  color: #ff423e;
+}
+
+/* /листалка */
+.catalog-cont .catalog-items {
+  margin-top: 20px;
+}
+
+.catalog-items .catalog-item-cont {
+  width: 256px;
+  float: left;
+  margin: 0 25px 25px 0;
+  border: solid 1px #a4e2f2;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
+}
+
+.catalog-items .catalog-item-last-cont {
+  margin-right: 0 !important;
+}
+
+.catalog-items a.catalog-item-link:link, .catalog-items a.catalog-item-link:visited {
+  text-decoration: none;
+  color: #236187;
+  font: normal 15px Arial;
+  cursor: pointer;
+}
+
+.catalog-items a.catalog-item-link:link .catalog-item-title1, .catalog-items a.catalog-item-link:visited .catalog-item-title1 {
+  color: #236187;
+  font: normal 18px Arial;
+  text-align: center;
+  padding: 5px 10px;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.catalog-items a.catalog-item-link:hover .catalog-item-title1, .catalog-items a.catalog-item-link:active .catalog-item-title1 {
+  color: #ff423e;
+  text-decoration: underline;
+}
+
+.catalog-items .catalog-item-img {
+  text-align: center;
+}
+
+.catalog-items .catalog-item-img img {
+  margin: 15px 0 5px;
+}
+
+.catalog-items .catalog-item-inner-text {
+  padding: 15px;
+}
+
+/* /стили каталога */
 .dashed-raz-brown {
   height: 20px;
   border-top: dashed 1px #c9bf99;
