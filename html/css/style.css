@@ -22,6 +22,7 @@ body {
 
 /* шапка */
 .header {
+  margin-bottom: 20px;
 }
 
 .header .right-menu {
@@ -539,8 +540,6 @@ body {
 /* стили каталога */
 /* меню каталога */
 .catalog-menu-cont {
-  margin-top: 20px;
-  padding: 0 10px;
   background: #def8ff url('../images/catalog-menu-bg.jpg') repeat-x top;
 }
 
@@ -559,12 +558,18 @@ body {
   text-decoration: none;
   text-align: center;
   cursor: pointer;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
 }
 
 .catalog-menu-cont table a:link div, .catalog-menu-cont table a:visited div {
   height: 150px;
   margin-left: 11px;
   padding-right: 11px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
 }
 
 .catalog-menu-cont table a:hover, .catalog-menu-cont table a:active {
@@ -573,6 +578,37 @@ body {
 
 .catalog-menu-cont table a:hover div, .catalog-menu-cont table a:active div {
   background: url('../images/catalog-menu-bga2.png') no-repeat right top;
+}
+
+.catalog-menu-cont table a.active:link, .catalog-menu-cont table a.active:visited {
+  position: relative;
+  height: 146px;
+  color: #d34c4a;
+  border: solid 2px #8de8ff;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #ddf8ff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ddf8ff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ddf8ff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #ddf8ff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #ddf8ff 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%, #ddf8ff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#ddf8ff', GradientType = 0); /* IE6-9 */
+}
+
+.catalog-menu-cont table a.active:hover div, .catalog-menu-cont table a.active:active div {
+  background: transparent !important;
+}
+
+.catalog-menu-cont table a.active:link span, .catalog-menu-cont table a.active:visited span {
+  position: absolute;
+  width: 28px;
+  height: 23px;
+  left: 38%;
+  bottom: -23px;
+  background: url('../images/catalog-menu-active-bgd.png') no-repeat top left;
 }
 
 /* /меню каталога */
@@ -597,7 +633,7 @@ body {
 }
 
 .catalog-cont {
-  margin-top: 15px;
+  margin-top: 5px;
   -webkit-box-shadow: 0 3px 5px #efe6c5;
   -moz-box-shadow: 0 3px 5px #efe6c5;
   box-shadow: 0 3px 5px #efe6c5;
