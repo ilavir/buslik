@@ -860,9 +860,33 @@ body {
   font-weight: bold;
 }
 
+.catalog-items a.catalog-item-link:link .catalog-item-title4-cont, .catalog-items a.catalog-item-link:visited .catalog-item-title4-cont {
+  color: #d34c4a;
+  font: normal 18px Arial;
+  text-align: center;
+  padding: 5px 10px;
+  border-bottom: dotted 1px #a4e2f2;
+  -webkit-border-radius: 0 15px 0 0;
+  -moz-border-radius: 0 15px 0 0;
+  border-radius: 0 15px 0 0;
+  background: #ecf8f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #fafdfe 0%, #ecf8f9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafdfe), color-stop(100%, #ecf8f9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fafdfe 0%, #ecf8f9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fafdfe 0%, #ecf8f9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fafdfe 0%, #ecf8f9 100%); /* IE10+ */
+  background: linear-gradient(top, #fafdfe 0%, #ecf8f9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fafdfe', endColorstr = '#ecf8f9', GradientType = 0); /* IE6-9 */
+}
+
+.catalog-items a.catalog-item-link:link .catalog-item-title4, .catalog-items a.catalog-item-link:visited .catalog-item-title4 {
+  color: #236187;
+}
+
 .catalog-items a.catalog-item-link:hover .catalog-item-title1, .catalog-items a.catalog-item-link:active .catalog-item-title1,
 .catalog-items a.catalog-item-link:hover .catalog-item-title2, .catalog-items a.catalog-item-link:active .catalog-item-title2,
-.catalog-items a.catalog-item-link:hover .catalog-item-title3, .catalog-items a.catalog-item-link:active .catalog-item-title3 {
+.catalog-items a.catalog-item-link:hover .catalog-item-title3, .catalog-items a.catalog-item-link:active .catalog-item-title3,
+.catalog-items a.catalog-item-link:hover .catalog-item-title4, .catalog-items a.catalog-item-link:active .catalog-item-title4 {
   color: #ff423e;
   text-decoration: underline;
 }
@@ -969,6 +993,10 @@ body {
 /* отступы */
 .marginb20 {
   margin-bottom: 20px;
+}
+
+span.bold {
+  font-weight: bold;
 }
 
 /* /отступы */
