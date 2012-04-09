@@ -995,6 +995,35 @@ body {
   background-position: 0 -36px;
 }
 
+.catalog-detailed-cont .data-cont table .pics {
+  color: #236187;
+  font: normal 15px Arial;
+}
+
+.catalog-detailed-cont .data-cont table .pics > img {
+  margin-bottom: 20px;
+}
+
+.catalog-detailed-cont .data-cont table .pics .pics-other {
+  margin: 20px 0;
+}
+
+.catalog-detailed-cont .data-cont table .pics .pic {
+  float: left;
+  margin-right: 10px;
+}
+
+.catalog-detailed-cont .data-cont table .pics .pic img {
+  border: solid 1px #a4e2f2;
+}
+
+.catalog-detailed-cont .data-cont table .pics .active img {
+  border: solid 1px #e3cc8e;
+}
+
+/* новинки */
+
+/* /новинки */
 /* /каталог внутренние текст (акции, новинки) */
 /* /стили каталога */
 .dashed-raz-brown {
