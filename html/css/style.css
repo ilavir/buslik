@@ -1024,7 +1024,7 @@ body {
 .catalog-detailed-cont .data-cont table .pics .pic,
 .modal-cont .data-cont table .pics .pic {
   float: left;
-  margin-right: 10px;
+  margin: 0 10px 10px 0;
 }
 
 .catalog-detailed-cont .data-cont table .pics .pic img,
@@ -1097,6 +1097,139 @@ body {
 /* /бренд */
 /* /каталог внутренние текст (акции, новинки) */
 /* /стили каталога */
+/* магазины */
+.shops-changecity-cont {
+  position: relative;
+  padding: 20px 30px;
+  margin: 0 0 30px 0;
+  color: #236187;
+  font: normal 18px Arial;
+  border: solid 1px #a4e2f2;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  background: #d9f3f6; /* Old browsers */
+  background: -moz-linear-gradient(top, #d9f3f6 0%, #fcfeff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9f3f6), color-stop(100%, #fcfeff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d9f3f6 0%, #fcfeff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d9f3f6 0%, #fcfeff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d9f3f6 0%, #fcfeff 100%); /* IE10+ */
+  background: linear-gradient(top, #d9f3f6 0%, #fcfeff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d9f3f6', endColorstr = '#fcfeff', GradientType = 0); /* IE6-9 */
+  box-shadow: 0 0 10px #7abbcd;
+  -moz-box-shadow: 0 0 10px #7abbcd;
+  -webkit-box-shadow: 0 0 10px #7abbcd;
+}
+
+.shops-changecity-cont span.pointer {
+  position: absolute;
+  left: 30px;
+  bottom: -21px;
+  width: 21px;
+  height: 21px;
+  background: url('../images/shops-citychange-bgd.png');
+}
+
+.shops-changecity-cont select {
+  width: 200px;
+  margin: 0 10px;
+  border: solid 1px #dec47f;
+  color: #333;
+  font: normal 18px Arial;
+  outline: none;
+}
+
+.shops-changecity-cont a:link, .shops-changecity-cont a:visited {
+  padding: 7px 15px;
+  color: #d34c4a;
+  font: normal 18px Arial;
+  text-decoration: none;
+  border: solid 1px #ace0ed;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: #e3f6f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e3f6f9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3f6f9', GradientType = 0); /* IE6-9 */
+}
+
+.shops-changecity-cont a:hover, .shops-changecity-cont a:active {
+  color: #ff423e;
+  background: #f1ecee; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), color-stop(100%, #f9e2e2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f9e2e2', GradientType = 0); /* IE6-9 */
+
+}
+
+.shops-item-cont {
+  float: left;
+  width: 397px;
+  margin: 0 25px 20px 0;
+  border: solid 1px #a4e2f2;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+}
+
+.shops-item-cont-last {
+  margin-right: 0 !important;
+}
+
+.shops-item-cont .city {
+  padding: 5px 20px;
+  color: #d34c4a;
+  font: normal 18px Arial;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.shops-item-cont .inner-cont {
+  padding: 10px 20px;
+}
+
+.shops-item-cont .address {
+  margin-bottom: 15px;
+  color: #236187;
+  font: normal 18px Arial;
+  text-decoration: underline;
+}
+
+.shops-item-cont .pic {
+  float: left;
+}
+
+.shops-item-cont .pic img {
+  border: solid 1px #a4e2f2;
+}
+
+.shops-item-cont .text {
+  margin-left: 160px;
+}
+
+.shops-item-cont .text .blue {
+  color: #236187;
+  font-weight: bold;
+}
+
+.shops-item-cont a.map:link, .shops-item-cont a.map:visited {
+  display: inline-block;
+  height: 22px;
+  padding-left: 25px;
+  color: #d34c4a;
+  line-height: 20px;
+  background: url('../images/shops-shononmap-icon.png') no-repeat left top;
+}
+
+/* /магазины */
 .dashed-raz-brown {
   height: 20px;
   border-top: dashed 1px #c9bf99;
