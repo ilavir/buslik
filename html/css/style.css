@@ -628,6 +628,89 @@ body {
 }
 
 /* /главная каталога */
+/* внутренняя каталога */
+.catalog-cont .catalog-title-inner-main {
+  padding: 20px 0 7px;
+  color: #d34c4a;
+  font: normal 34px Arial;
+  text-align: center;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.sidebar4 {
+  margin: 0 280px 0 275px;
+}
+
+.sidebar4 .catalog-title-inner {
+  padding-top: 10px;
+  color: #a68a3e;
+  font: normal 27px Arial;
+  text-align: center;
+}
+
+.sidebar5 {
+  float: left;
+  width: 270px;
+}
+
+/* меню слева в каталоге */
+.sidebar5 .catalog-left-menu {
+  margin-top: 2px;
+  padding: 15px 0;
+  border: solid 2px #eed990;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0;
+  background: #fff; /* Old browsers */
+  background: -moz-linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fffae8), color-stop(5%, #ffffff), color-stop(95%, #ffffff), color-stop(100%, #fffae8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* IE10+ */
+  background: linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* W3C */
+}
+
+.catalog-left-menu ul a:link, .catalog-left-menu ul a:visited {
+  display: block;
+  color: #1a557a;
+  font: normal 15px Arial;
+  text-decoration: none;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.catalog-left-menu > ul > li:last-child > a {
+  border-bottom: none !important;
+}
+
+.catalog-left-menu ul a:hover, .catalog-left-menu ul a:active {
+  color: #ff423e;
+  text-decoration: underline;
+}
+
+.catalog-left-menu > ul > li > a {
+  padding: 7px 30px;
+}
+
+.catalog-left-menu > ul > li.active > a {
+  background: #ddf8ff url('../images/catalog-menu-left-acti1.png') no-repeat right;
+}
+
+.catalog-left-menu > ul > li > ul > li > a {
+  padding: 7px 30px 5px 55px;
+  background: #eefbff;
+}
+
+.catalog-left-menu > ul > li > ul > li.active > a:link, .catalog-left-menu > ul > li > ul > li.active > a:visited {
+  color: #d34c4a;
+  background: #eefbff url('../images/catalog-menu-left-acti2.png') no-repeat right;
+}
+
+.catalog-left-menu > ul > li > ul > li.active > a:hover, .catalog-left-menu > ul > li > ul > li.active > a:active {
+  color: #ff423e;
+}
+
+/* /меню слева в каталоге */
+/* /внутренняя каталога */
 .white-bg {
   background: #fff;
 }
@@ -772,18 +855,30 @@ body {
   text-decoration: none;
 }
 
+.catalog-items a.catalog-item-link:link .catalog-item-title3, .catalog-items a.catalog-item-link:visited .catalog-item-title3 {
+  text-align: center;
+  font-weight: bold;
+}
+
 .catalog-items a.catalog-item-link:hover .catalog-item-title1, .catalog-items a.catalog-item-link:active .catalog-item-title1,
-.catalog-items a.catalog-item-link:hover .catalog-item-title2, .catalog-items a.catalog-item-link:active .catalog-item-title2 {
+.catalog-items a.catalog-item-link:hover .catalog-item-title2, .catalog-items a.catalog-item-link:active .catalog-item-title2,
+.catalog-items a.catalog-item-link:hover .catalog-item-title3, .catalog-items a.catalog-item-link:active .catalog-item-title3 {
   color: #ff423e;
   text-decoration: underline;
 }
 
-.catalog-items .catalog-item-img {
+.catalog-items .catalog-item-img,
+.catalog-items .catalog-item-img2 {
   text-align: center;
 }
 
-.catalog-items .catalog-item-img img {
+.catalog-items .catalog-item-img img,
+.catalog-items .catalog-item-img2 img {
   margin: 15px 0 5px;
+}
+
+.catalog-items .catalog-item-img2 {
+  border-bottom: dotted 1px #a4e2f2;
 }
 
 .catalog-items .catalog-item-inner-text {
