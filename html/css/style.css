@@ -1264,6 +1264,90 @@ a:link, a:visited {
 }
 
 /* /магазины */
+/* новости */
+.title-other {
+  padding: 20px;
+  margin-bottom: 1px;
+  color: #d34c4a;
+  font: normal 34px Arial;
+  border-bottom: dotted 1px #a4e2f2;
+  -webkit-border-radius: 15px 15px 0 0;
+  -moz-border-radius: 15px 15px 0 0;
+  border-radius: 15px 15px 0 0;
+  background: url('../images/visual-bg3.jpg') no-repeat left top;
+}
+
+.title-other-down-bg {
+  height: 20px;
+  margin-bottom: 5px;
+  background: #f7f2dd; /* Old browsers */
+  background: -moz-linear-gradient(top, #f7f2dd 0%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f2dd), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f7f2dd 0%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f7f2dd 0%, #ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f7f2dd 0%, #ffffff 100%); /* IE10+ */
+  background: linear-gradient(top, #f7f2dd 0%, #ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f7f2dd', endColorstr = '#ffffff', GradientType = 0); /* IE6-9 */
+
+}
+
+.news-cont {
+  margin: 25px 0;
+}
+
+.news-cont .item-cont {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.news-cont .date {
+  color: #666;
+  font: italic 13px Arial;
+}
+
+.news-cont .date-inner {
+  color: #666;
+  font: normal 15px Arial;
+}
+
+.news-cont .title {
+  margin: 10px 0 15px;
+  color: #236187;
+  font: bold 21px Arial;
+}
+
+.news-cont .title a:link, .news-cont .title a:visited {
+  color: #236187;
+  font: bold 15px Arial;
+}
+
+.news-cont  .title a:hover, .news-cont .title a:active {
+  color: #f1524f;
+}
+
+.news-cont .text img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.news-cont .text p {
+  margin-top: 10px;
+}
+
+.news-cont .text a.more:link, .news-cont .text a.more:visited {
+  display: inline-block;
+  margin-top: 10px;
+  color: #a28433;
+  font: italic 15px Arial;
+  text-decoration: underline;
+}
+
+.news-cont .text a.more:hover, .news-cont .text a.more:active {
+  color: #f1524f;
+}
+
+/* /новости */
 .dashed-raz-brown {
   height: 20px;
   border-top: dashed 1px #c9bf99;
