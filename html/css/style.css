@@ -1272,6 +1272,10 @@ p {
 }
 
 /* /магазины */
+.sidebar6 {
+  margin-right: 10px;
+}
+
 /* новости */
 .title-other {
   padding: 20px;
@@ -1469,6 +1473,55 @@ table.ourfriends td.logo {
 }
 
 /* /партнерам */
+/* вакансии */
+.vacancy-item-cont {
+  margin-bottom: 25px;
+  border: solid 1px #a4e2f2;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+}
+
+.vacancy-item-cont .city {
+  padding: 7px 20px;
+  color: #236187;
+  font: normal 18px Arial;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.vacancy-item-cont .contacts {
+  float: right;
+  width: 250px;
+  margin: 10px 0;
+  padding: 0 20px 20px;
+  border-left: dotted 1px #a4e2f2;
+}
+
+.vacancy-item-cont .text {
+  margin: 15px 280px 15px 20px;
+}
+
+.vacancy-item-cont .text .name {
+  color: #d34c4a;
+  font: normal 18px Arial;
+}
+
+.vacancy-item-cont .text ul {
+  margin: 20px;
+}
+
+.vacancy-item-cont .text ul li {
+  padding-left: 15px;
+  color: #124c70;
+  background: url('../images/li-icon-blue.png') no-repeat;
+  background-position: 0 5px;
+}
+
+.vacancy-item-cont .text .blue {
+  color: #124c70;
+}
+
+/* /вакансии */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1552,6 +1605,10 @@ table.ourfriends td.logo {
 /* отступы */
 .marginb20 {
   margin-bottom: 20px;
+}
+
+.marginb150 {
+  margin-bottom: 150px;
 }
 
 span.bold {
