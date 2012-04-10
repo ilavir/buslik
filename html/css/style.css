@@ -1168,6 +1168,9 @@ p {
   background: -ms-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* IE10+ */
   background: linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3f6f9', GradientType = 0); /* IE6-9 */
+  box-shadow: 0 1px 1px #3eb4d3;
+  -moz-box-shadow: 0 1px 1px #3eb4d3;
+  -webkit-box-shadow: 0 1px 1px #3eb4d3;
 }
 
 .shops-changecity-cont a:hover, .shops-changecity-cont a:active {
@@ -1522,6 +1525,155 @@ table.ourfriends td.logo {
 }
 
 /* /вакансии */
+/* контакты */
+.contacts-left-cont {
+  margin-right: 580px;
+  border-right: dotted 1px #a4e2f2;
+}
+
+.contacts-right-cont {
+  float: right;
+  width: 550px;
+}
+
+.contacts-right-cont .contacts-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.contacts-right-cont .contacts-item .otdel {
+  margin-bottom: 15px;
+  color: #236187;
+  font: bold 15px Arial;
+}
+
+.contacts-left-cont .contacts-map {
+  float: left;
+}
+
+.contacts-left-cont .contacts-map img {
+  border: solid 3px #daedff;
+}
+
+.contacts-left-cont .contacts-text {
+  float: left;
+  margin-left: 40px;
+  font: normal 18px Arial;
+}
+
+.contacts-left-cont .contacts-text a:link, .contacts-left-cont .contacts-text a:visited {
+  font: normal 16px Arial;
+}
+
+.contacts-left-cont .contacts-text a:hover, .contacts-left-cont .contacts-text a:active {
+  color: #ff423e;
+}
+
+div.tels img {
+  position: relative;
+  top: 2px;
+}
+
+div.tels {
+  margin: 10px 0;
+  font: normal 17px Arial;
+}
+
+/* /контакты */
+/* формы */
+.contacts-form-cont input, .contacts-form-cont textarea {
+  height: 20px;
+  line-height: 20px;
+  border: solid 1px #c5dfed;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0 1px 4px #f3f6f9 inset;
+  -moz-box-shadow: 0 1px 4px #f3f6f9 inset;
+  box-shadow: 0 1px 4px #f3f6f9 inset;
+  resize: none;
+}
+
+.contacts-form-cont {
+  margin: 25px 20px 0 0;
+  padding: 20px;
+  font: normal 15px Arial;
+  border: solid 1px #a4e2f2;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+  background: #e7f7fa;
+}
+
+.contacts-form-cont table {
+  width: 100%;
+}
+
+.contacts-form-cont table td {
+  padding: 5px 0;
+}
+
+.contacts-form-cont table td.label {
+  width: 100%;
+}
+
+.contacts-form-cont table td.input {
+  text-align: right;
+}
+
+.contacts-form-cont table td.submit {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.contacts-form-cont input {
+  width: 360px;
+}
+
+.contacts-form-cont textarea {
+  width: 430px;
+  height: 150px;
+  background: #fffdef;
+}
+
+.contacts-form-cont a:link, .contacts-form-cont a:visited {
+  padding: 7px 15px;
+  color: #d34c4a;
+  font: normal 18px Arial;
+  text-decoration: none;
+  border: solid 1px #ace0ed;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background: #e3f6f9; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e3f6f9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%, #e3f6f9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e3f6f9', GradientType = 0); /* IE6-9 */
+  box-shadow: 0 1px 1px #3eb4d3;
+  -moz-box-shadow: 0 1px 1px #3eb4d3;
+  -webkit-box-shadow: 0 1px 1px #3eb4d3;
+}
+
+.contacts-form-cont a:hover, .contacts-form-cont a:active {
+  color: #ff423e;
+  background: #f1ecee; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), color-stop(100%, #f9e2e2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* IE10+ */
+  background: linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f9e2e2', GradientType = 0); /* IE6-9 */
+
+}
+
+/* формы */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1613,6 +1765,10 @@ table.ourfriends td.logo {
 
 span.bold {
   font-weight: bold;
+}
+
+.paddingt20 {
+  padding-top: 20px !important;
 }
 
 /* /отступы */
