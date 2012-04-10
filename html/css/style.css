@@ -1414,6 +1414,61 @@ table.ourfriends td.logo {
 }
 
 /* /о буслике */
+/* партнерам */
+.partners-mater-cont {
+  margin-right: 600px;
+  border: solid 1px #a4e2f2;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+}
+
+.partners-mater-cont .item {
+  padding: 15px;
+  border-top: dotted 1px #a4e2f2;
+}
+
+.partners-mater-cont .item a:link, .partners-mater-cont .item a:visited {
+  display: inline-block;
+  height: 38px;
+  padding-left: 50px;
+  color: #236187;
+  font: normal 18px Arial;
+  line-height: 40px;
+  text-decoration: underline;
+}
+
+.partners-mater-cont .item a:hover, .partners-mater-cont .item a:active {
+  color: #ff423e;
+}
+
+.partners-mater-cont .item1 {
+  border: none !important;
+}
+
+.partners-mater-cont .item1 a:link, .partners-mater-cont .item1 a:visited {
+  background: url('../images/pdf-icon1.png') no-repeat left top;
+}
+
+.partners-mater-cont .item2 a:link, .partners-mater-cont .item2 a:visited {
+  background: url('../images/pdf-icon2.png') no-repeat left top;
+}
+
+.partners-mater-cont .item3 a:link, .partners-mater-cont .item3 a:visited {
+  background: url('../images/pdf-icon3.png') no-repeat left top;
+}
+
+.partners-mater-cont .item4 a:link, .partners-mater-cont .item4 a:visited {
+  background: url('../images/pdf-icon4.png') no-repeat left top;
+}
+
+.partners-text-cont {
+  float: right;
+  width: 550px;
+
+}
+
+/* /партнерам */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
