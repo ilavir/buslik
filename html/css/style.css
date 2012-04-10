@@ -4,6 +4,10 @@ body {
   font: normal 14px Arial;
 }
 
+a:link, a:visited {
+  color: #f1524f;
+}
+
 .container {
   width: 1138px;
   margin: 0 auto;
@@ -1203,6 +1207,16 @@ body {
   text-decoration: underline;
 }
 
+.shops-item-cont .address a:link, .shops-item-cont .address a:visited {
+  color: #236187;
+  font: normal 18px Arial;
+  text-decoration: underline;
+}
+
+.shops-item-cont .address a:hover, .shops-item-cont .address a:active {
+  color: #f1524f;
+}
+
 .shops-item-cont .pic {
   float: left;
 }
@@ -1220,13 +1234,33 @@ body {
   font-weight: bold;
 }
 
-.shops-item-cont a.map:link, .shops-item-cont a.map:visited {
+.shops-item-cont a.map:link, .shops-item-cont a.map:visited,
+.modal-cont .title-cont a.map:link, .modal-cont .title-cont a.map:visited {
   display: inline-block;
   height: 22px;
   padding-left: 25px;
   color: #d34c4a;
   line-height: 20px;
   background: url('../images/shops-shononmap-icon.png') no-repeat left top;
+}
+
+.shops-item-cont a.map:hover, .shops-item-cont a.map:active,
+.modal-cont .title-cont a.map:hover, .modal-cont .title-cont a.map:active {
+  color: #f1524f;
+}
+
+.modal-cont .title-cont .city {
+  color: #d34c4a;
+  font: normal 21px Arial;
+}
+
+.modal-cont .text .tels {
+  color: #333;
+  font: normal 18px Arial;
+}
+
+.modal-cont .text .blue {
+  color: #236187;
 }
 
 /* /магазины */
