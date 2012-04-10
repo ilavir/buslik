@@ -1396,6 +1396,23 @@ p {
   font: normal 27px Arial;
 }
 
+table.ourfriends {
+  width: 100%;
+  margin-top: 20px;
+  border-top: dotted 1px #a4e2f2;
+}
+
+table.ourfriends td {
+  width: 50%;
+  vertical-align: middle;
+  padding: 15px 5px;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+table.ourfriends td.logo {
+  text-align: center;
+}
+
 /* /о буслике */
 .highlight-red18 {
   color: #d34c4a;
