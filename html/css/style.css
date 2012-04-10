@@ -5,7 +5,15 @@ body {
 }
 
 a:link, a:visited {
+  color: #d34c4a;
+}
+
+a:hover, a:active {
   color: #f1524f;
+}
+
+p {
+  margin-top: 10px;
 }
 
 .container {
@@ -662,9 +670,9 @@ a:link, a:visited {
   margin-top: 2px;
   padding: 15px 0;
   border: solid 2px #eed990;
-  -webkit-border-radius: 0 15px 15px 0;
-  -moz-border-radius: 0 15px 15px 0;
-  border-radius: 0 15px 15px 0;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
   background: #fff; /* Old browsers */
   background: -moz-linear-gradient(top, #fffae8 0%, #ffffff 5%, #ffffff 95%, #fffae8 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fffae8), color-stop(5%, #ffffff), color-stop(95%, #ffffff), color-stop(100%, #fffae8)); /* Chrome,Safari4+ */
@@ -747,7 +755,7 @@ a:link, a:visited {
 }
 
 .catalog-cont .content-cont {
-  margin: 0 10px 0 20px;
+  margin: 0 10px 20px 20px;
 }
 
 /* листалка */
@@ -1348,6 +1356,52 @@ a:link, a:visited {
 }
 
 /* /новости */
+/* о буслике */
+.other-left-menu {
+  padding: 15px 0;
+  border: solid 2px #eed990;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
+}
+
+.other-left-menu ul a:link, .other-left-menu ul a:visited {
+  display: block;
+  color: #1a557a;
+  font: bold 15px Arial;
+  text-decoration: none;
+  border-bottom: dotted 1px #eed990;
+}
+
+.catalog-left-menu ul li:last-child a {
+  border-bottom: none !important;
+}
+
+.other-left-menu ul a:hover, .other-left-menu ul a:active {
+  color: #ff423e;
+}
+
+.other-left-menu ul li a {
+  padding: 7px 30px;
+}
+
+.other-left-menu ul li.active a {
+  color: #a68a3e;
+  background: #fff8e0 url('../images/catalog-menu-left-acti2.png') no-repeat right;
+}
+
+.other-title-inner {
+  padding: 10px 0 15px 20px;
+  color: #a68a3e;
+  font: normal 27px Arial;
+}
+
+/* /о буслике */
+.highlight-red18 {
+  color: #d34c4a;
+  font: normal 18px Arial;
+}
+
 .dashed-raz-brown {
   height: 20px;
   border-top: dashed 1px #c9bf99;
