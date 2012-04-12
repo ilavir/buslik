@@ -1333,8 +1333,10 @@ p {
 }
 
 .news-cont .title a:link, .news-cont .title a:visited {
+
   color: #236187;
   font: bold 15px Arial;
+  line-height: 15px;
 }
 
 .news-cont  .title a:hover, .news-cont .title a:active {
@@ -1673,6 +1675,48 @@ div.tels {
 
 }
 
+/* советы педиатра */
+.sidebar5exp {
+  position: absolute;
+}
+
+.advices-person-cont {
+  padding: 20px;
+  border: solid 1px #ace0ed;
+  border-radius: 20px 20px 20px 0;
+  -moz-border-radius: 20px 20px 20px 0;
+  -webkit-border-radius: 20px 20px 20px 0;
+}
+
+.advices-person-bg-up {
+  height: 20px;
+  margin-top: 10px;
+  background: url('../images/advices-person-bg-up.png') no-repeat bottom center;
+}
+
+.advices-person-bg-down {
+  height: 20px;
+  margin-bottom: 10px;
+  background: url('../images/advices-person-bg-down.png') no-repeat top center;
+}
+
+.advices-person-cont .photo {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.advices-person-cont .text {
+  color: #a68a3e;
+  font: normal 15px Arial;
+}
+
+.advices-person-cont .name {
+  margin-top: 10px;
+  color: #236187;
+  font: normal 18px Arial;
+}
+
+/* /советы педиатра */
 /* формы */
 .highlight-red18 {
   color: #d34c4a;
