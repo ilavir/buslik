@@ -1585,9 +1585,11 @@ div.tels {
 
 /* /контакты */
 /* формы */
-.contacts-form-cont input, .contacts-form-cont textarea {
+.contacts-form-cont input, .contacts-form-cont textarea,
+.question-form-cont input, .question-form-cont textarea, .question-form-cont select {
   height: 20px;
   line-height: 20px;
+  font: normal 15px Arial;
   border: solid 1px #c5dfed;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1640,7 +1642,8 @@ div.tels {
   background: #fffdef;
 }
 
-.contacts-form-cont a:link, .contacts-form-cont a:visited {
+.contacts-form-cont a:link, .contacts-form-cont a:visited,
+.question-form-cont a:link, .question-form-cont a:visited {
   padding: 7px 15px;
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1662,7 +1665,8 @@ div.tels {
   -webkit-box-shadow: 0 1px 1px #3eb4d3;
 }
 
-.contacts-form-cont a:hover, .contacts-form-cont a:active {
+.contacts-form-cont a:hover, .contacts-form-cont a:active,
+.question-form-cont a:hover, .question-form-cont a:active {
   color: #ff423e;
   background: #f1ecee; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
@@ -1675,6 +1679,28 @@ div.tels {
 
 }
 
+.question-form-cont .input {
+  margin-top: 15px;
+  font: normal 15px Arial !important;
+}
+
+.question-form-cont input,
+.question-form-cont select {
+  margin-top: 5px;
+  width: 220px;
+}
+
+.question-form-cont textarea {
+  width: 220px;
+  height: 150px;
+  background: #fffdef;
+}
+
+.question-form-cont .submit {
+  text-align: center;
+}
+
+/* /формы */
 /* советы педиатра */
 .sidebar5exp {
   position: absolute;
@@ -1683,9 +1709,9 @@ div.tels {
 .advices-person-cont {
   padding: 20px;
   border: solid 1px #ace0ed;
-  border-radius: 20px 20px 20px 0;
-  -moz-border-radius: 20px 20px 20px 0;
-  -webkit-border-radius: 20px 20px 20px 0;
+  border-radius: 0 20px 20px 20px;
+  -moz-border-radius: 0 20px 20px 20px;
+  -webkit-border-radius: 0 20px 20px 20px;
 }
 
 .advices-person-bg-up {
@@ -1716,8 +1742,76 @@ div.tels {
   font: normal 18px Arial;
 }
 
+.faq-item-cont .item {
+  margin: 25px 0 10px;
+  padding: 0 0 10px;
+  border-bottom: dotted 1px #ace0ed;
+}
+
+.faq-item-cont .item .date {
+  margin-bottom: 15px;
+  text-align: right;
+  color: #666;
+  font: italic 13px Arial;
+}
+
+.faq-item-cont .item .text,
+.faq-item-cont .item .answer {
+  color: #1a557a;
+  font: normal 15px Arial;
+}
+
+.faq-item-cont .item a.open:link, .faq-item-cont .item a.open:visited {
+  display: inline-block;
+  margin-top: 15px;
+  padding-right: 25px;
+  color: #a28433;
+  font: italic 15px Arial;
+  text-decoration: underline;
+  background: url('../images/faq-arrow-down-icon.png') no-repeat;
+  background-position: 100% 2px;
+}
+
+.faq-item-cont .item a.open:hover, .faq-item-cont .item a.open:active {
+  color: #f1524f;
+  background-position: 100% -18px;
+}
+
+.faq-item-cont .item a.close:link, .faq-item-cont .item a.close:visited {
+  display: inline-block;
+  margin-top: 15px;
+  padding-right: 25px;
+  color: #f1524f;
+  font: italic 15px Arial;
+  text-decoration: underline;
+  background: url('../images/faq-arrow-up-icon.png') no-repeat;
+  background-position: 100% 2px;
+}
+
+.faq-item-cont .item a.close:hover, .faq-item-cont .item a.close:active {
+  color: #a28433;
+  background-position: 100% -18px;
+}
+
+.faq-item-cont .item .answer {
+  margin-top: 15px;
+  padding: 20px;
+  border: solid 1px #b4e2ee;
+  background: #e7f7fa;
+}
+
+.question-form-cont {
+  padding: 20px;
+  font: bold 15px Arial;
+  border: solid 1px #b4e2ee;
+  border-radius: 0 20px 20px 20px;
+  -moz-border-radius: 0 20px 20px 20px;
+  -webkit-border-radius: 0 20px 20px 20px;
+  background: #e7f7fa;
+}
+
 /* /советы педиатра */
-/* формы */
+
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
