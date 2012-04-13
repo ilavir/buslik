@@ -1585,8 +1585,10 @@ div.tels {
 
 /* /контакты */
 /* формы */
-.contacts-form-cont input, .contacts-form-cont textarea,
-.question-form-cont input, .question-form-cont textarea, .question-form-cont select {
+.contacts-form-cont input[type="text"], .contacts-form-cont textarea,
+.question-form-cont input[type="text"], .question-form-cont textarea, .question-form-cont select,
+.subscr-form-cont input[type="text"], .subscr-form-cont textarea,
+.subscr2-form-cont input[type="text"], .subscr2-form-cont textarea {
   height: 20px;
   line-height: 20px;
   font: normal 15px Arial;
@@ -1611,23 +1613,33 @@ div.tels {
   background: #e7f7fa;
 }
 
-.contacts-form-cont table {
+.contacts-form-cont table,
+.subscr-form-cont table,
+.subscr2-form-cont table {
   width: 100%;
 }
 
-.contacts-form-cont table td {
+.contacts-form-cont table td,
+.subscr-form-cont table td,
+.subscr2-form-cont table td {
   padding: 5px 0;
 }
 
-.contacts-form-cont table td.label {
+.contacts-form-cont table td.label,
+.subscr-form-cont table td.label,
+.subscr2-form-cont table td.label {
   width: 100%;
 }
 
-.contacts-form-cont table td.input {
+.contacts-form-cont table td.input,
+.subscr-form-cont table td.input,
+.subscr2-form-cont table td.input {
   text-align: right;
 }
 
-.contacts-form-cont table td.submit {
+.contacts-form-cont table td.submit,
+.subscr-form-cont table td.submit,
+.subscr2-form-cont table td.submit {
   padding-top: 15px;
   text-align: center;
 }
@@ -1643,7 +1655,9 @@ div.tels {
 }
 
 .contacts-form-cont a:link, .contacts-form-cont a:visited,
-.question-form-cont a:link, .question-form-cont a:visited {
+.question-form-cont a:link, .question-form-cont a:visited,
+.subscr-form-cont a:link, .subscr-form-cont a:visited,
+.subscr2-form-cont a:link, .subscr2-form-cont a:visited {
   padding: 7px 15px;
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1666,7 +1680,9 @@ div.tels {
 }
 
 .contacts-form-cont a:hover, .contacts-form-cont a:active,
-.question-form-cont a:hover, .question-form-cont a:active {
+.question-form-cont a:hover, .question-form-cont a:active,
+.subscr-form-cont a:hover, .subscr-form-cont a:active,
+.subscr2-form-cont a:hover, .subscr2-form-cont a:active {
   color: #ff423e;
   background: #f1ecee; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
@@ -1684,8 +1700,7 @@ div.tels {
   font: normal 15px Arial !important;
 }
 
-.question-form-cont input,
-.question-form-cont select {
+.question-form-cont input, .question-form-cont select {
   margin-top: 5px;
   width: 220px;
 }
@@ -1811,7 +1826,65 @@ div.tels {
 }
 
 /* /советы педиатра */
+/* подписка на рассылку */
+.subscr-left-cont {
+  margin-right: 580px;
+}
 
+.subscr-right-cont {
+  float: right;
+  width: 550px;
+}
+
+.subscr-left-cont .text {
+  margin-top: 20px;
+  color: #114f74;
+  font: bold 15px Arial;
+}
+
+.subscr-form-cont {
+  margin: 20px 0;
+  padding: 20px;
+  font: normal 15px Arial;
+  border: solid 1px #a4e2f2;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+  background: #e7f7fa;
+}
+
+.subscr-form-cont input[type="text"],
+.subscr2-form-cont input[type="text"] {
+  width: 380px;
+}
+
+.subscr-left-cont .subscr-check-cont {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #a4e2f2;
+}
+
+.subscr-right-cont .text {
+  margin-top: 20px;
+  color: #9f8643;
+  font: bold 15px Arial;
+}
+
+.subscr2-form-cont {
+  margin: 20px 0;
+  padding: 20px;
+  font: normal 15px Arial;
+  border: solid 1px #e3cc8e;
+  border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  -webkit-border-radius: 0 15px 15px 15px;
+  background: #fcf5dc;
+}
+
+/* /подписка на рассылку */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1893,6 +1966,10 @@ div.tels {
 
 /* подвал */
 /* отступы */
+.nomargint {
+  margin-top: 0 !important;
+}
+
 .marginb20 {
   margin-bottom: 20px;
 }
