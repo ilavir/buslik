@@ -1590,7 +1590,8 @@ div.tels {
 .subscr-form-cont input[type="text"], .subscr-form-cont textarea,
 .subscr2-form-cont input[type="text"], .subscr2-form-cont textarea,
 .searchp-input-cont input[type="text"], .searchp-input-cont textarea,
-.gallery-album .sort-cont select {
+.gallery-album .sort-cont select,
+.modal .photo-data-cont3 input[type="text"] {
   height: 20px;
   line-height: 20px;
   font: normal 15px Arial;
@@ -1661,7 +1662,9 @@ div.tels {
 .subscr-form-cont a:link, .subscr-form-cont a:visited,
 .subscr2-form-cont a:link, .subscr2-form-cont a:visited,
 .searchp-input-cont a:link, .searchp-input-cont a:visited,
-.gallery-photo-item .vote-cont a:link, .searchp-input-cont a:visited {
+.gallery-photo-item .vote-cont a:link, .gallery-photo-item .vote-cont a:visited,
+.modal .photo-data-cont .vote-cont a:link, .modal .photo-data-cont .vote-cont a:visited,
+.modal .photo-data-cont3 a:link, .modal .photo-data-cont3 a:visited {
   padding: 7px 15px;
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1688,7 +1691,9 @@ div.tels {
 .subscr-form-cont a:hover, .subscr-form-cont a:active,
 .subscr2-form-cont a:hover, .subscr2-form-cont a:active,
 .searchp-input-cont a:hover, .searchp-input-cont a:active,
-.gallery-photo-item .vote-cont a:hover, .searchp-input-cont a:active {
+.gallery-photo-item .vote-cont a:hover, .gallery-photo-item .vote-cont a:active,
+.modal .photo-data-cont .vote-cont a:hover, .modal .photo-data-cont .vote-cont a:active,
+.modal .photo-data-cont3 a:hover, .modal .photo-data-cont3 a:active {
   color: #ff423e;
   background: #f1ecee; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
@@ -2082,7 +2087,9 @@ div.tels {
   margin-right: 0 !important;
 }
 
-.gallery-album .gallery-photo-item .date {
+.gallery-album .gallery-photo-item .date,
+.modal .photo-title-cont .date,
+.modal .photo-data-cont2 .date {
   color: #666;
   font: italic 12px Arial;
 }
@@ -2098,7 +2105,9 @@ div.tels {
   color: #ff423e;
 }
 
-.gallery-album .gallery-photo-item .author {
+.gallery-album .gallery-photo-item .author,
+.modal .photo-title-cont .author,
+.modal .photo-data-cont2 .author {
   color: #666;
   font: italic 14px Arial;
 }
@@ -2108,21 +2117,85 @@ div.tels {
   text-align: center;
 }
 
-.gallery-album .gallery-photo-item .vote-cont {
+.gallery-album .gallery-photo-item .vote-cont,
+.modal .photo-data-cont .vote-cont {
   padding: 5px;
   color: #185e83;
   text-align: right;
   background: #e7f7fa;
 }
 
-.gallery-photo-item .vote-cont a {
+.gallery-photo-item .vote-cont a,
+.modal .photo-data-cont .vote-cont a {
   float: left;
 }
 
-.gallery-album .gallery-photo-item .vote-cont .golosa {
+.gallery-album .gallery-photo-item .vote-cont .golosa,
+.modal .photo-data-cont .vote-cont .golosa {
   margin-top: 12px;
 }
 
+/* всплывающие фото */
+.modal .photo-data-cont {
+  text-align: center;
+}
+
+.modal .photo-data-cont img {
+  margin-bottom: 20px;
+}
+
+.modal .photo-data-cont3 {
+  float: right;
+  position: relative;
+  width: 320px;
+  padding: 20px 20px 20px 40px;
+  border: solid 1px #e7f7fa;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
+  background: #e7f7fa;
+}
+
+.modal .photo-data-cont3 .info {
+  position: absolute;
+  left: 9px;
+  top: 33px;
+  width: 22px;
+  height: 22px;
+}
+
+.modal .photo-data-cont3 .high1 {
+  margin: 20px 0 5px;
+  color: #185e83;
+  font: bold 15px Arial;
+}
+
+.modal .photo-data-cont3 .input input {
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.modal .photo-data-cont2 {
+  margin-right: 400px;
+  text-align: left;
+}
+
+.modal .photo-data-cont2 .pic {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.modal .photo-data-cont2 .name {
+  margin: 5px 0;
+  color: #185e83;
+}
+
+.modal .photo-data-cont2 .vote-cont2 {
+  padding: 10px !important;
+  text-align: left !important;
+}
+
+/* /всплывающие фото */
 /* /фотогалерея */
 .highlight-red18 {
   color: #d34c4a;
