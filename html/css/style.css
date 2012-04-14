@@ -1588,7 +1588,8 @@ div.tels {
 .contacts-form-cont input[type="text"], .contacts-form-cont textarea,
 .question-form-cont input[type="text"], .question-form-cont textarea, .question-form-cont select,
 .subscr-form-cont input[type="text"], .subscr-form-cont textarea,
-.subscr2-form-cont input[type="text"], .subscr2-form-cont textarea {
+.subscr2-form-cont input[type="text"], .subscr2-form-cont textarea,
+.searchp-input-cont input[type="text"], .searchp-input-cont textarea {
   height: 20px;
   line-height: 20px;
   font: normal 15px Arial;
@@ -1657,7 +1658,8 @@ div.tels {
 .contacts-form-cont a:link, .contacts-form-cont a:visited,
 .question-form-cont a:link, .question-form-cont a:visited,
 .subscr-form-cont a:link, .subscr-form-cont a:visited,
-.subscr2-form-cont a:link, .subscr2-form-cont a:visited {
+.subscr2-form-cont a:link, .subscr2-form-cont a:visited,
+.searchp-input-cont a:link, .searchp-input-cont a:visited {
   padding: 7px 15px;
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1682,7 +1684,8 @@ div.tels {
 .contacts-form-cont a:hover, .contacts-form-cont a:active,
 .question-form-cont a:hover, .question-form-cont a:active,
 .subscr-form-cont a:hover, .subscr-form-cont a:active,
-.subscr2-form-cont a:hover, .subscr2-form-cont a:active {
+.subscr2-form-cont a:hover, .subscr2-form-cont a:active,
+.searchp-input-cont a:hover, .searchp-input-cont a:active {
   color: #ff423e;
   background: #f1ecee; /* Old browsers */
   background: -moz-linear-gradient(top, #ffffff 40%, #f9e2e2 100%); /* FF3.6+ */
@@ -1885,6 +1888,35 @@ div.tels {
 }
 
 /* /подписка на рассылку */
+/* поиск */
+.searchp-input-cont input {
+  width: 600px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  background: #fffdef;
+}
+
+.searchp-results-count {
+  margin: 20px 0;
+  color: #666;
+}
+
+.searchp-results-count .high1 {
+  color: #d34c4a;
+  font: normal 18px Arial;
+}
+
+.searchp-results-count .high2 {
+  font-size: 18px;
+}
+
+.searchp-item {
+  padding: 15px 0;
+  border-bottom: dotted 1px #ace0ed;
+}
+
+/* /поиск */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
@@ -1968,6 +2000,10 @@ div.tels {
 /* отступы */
 .nomargint {
   margin-top: 0 !important;
+}
+
+.margint20 {
+  margin-top: 20px;
 }
 
 .marginb20 {
