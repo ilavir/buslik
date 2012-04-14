@@ -1,0 +1,414 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <title>Буслик / Фотогалерея / Название альбома</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<div class="container">
+<!-- шапка -->
+<div class="header clearfix">
+  <div class="sidebar2">
+    <ul class="right-menu">
+      <li class="feedback"><a href="#">Книга отзывов и предложений</a></li>
+      <li class="subscribe"><a href="#">Подписка на рассылку</a></li>
+    </ul>
+    <div class="search-cont clearfix">
+      <input type="text" placeholder="Введите ключевое слово"/>
+      <a href="#">Поиск</a>
+    </div>
+  </div>
+  <div class="sidebar1">
+    <div class="header-logo">
+      <a href="/"><img src="images/logo.png" width="255" height="120" alt="Буслик. Сеть супермаркетов для детей"/></a>
+    </div>
+    <!-- первое верхнее меню -->
+    <div class="header-menu-first-cont">
+      <ul class="header-menu-first">
+        <li><a href="actions.html"><img src="images/header-menu-first-i1.png" width="209" height="15"
+                                        alt="Выгодные покупки"/></a></li>
+        <li><a href="novelty.html"><img src="images/header-menu-first-i2.png" width="91" height="15"
+                                        alt="Новинки"/></a></li>
+        <li><a href="catalog.html"><img src="images/header-menu-first-i3.png" width="86" height="15"
+                                        alt="Каталог"/></a></li>
+        <li><a href="shops.html"><img src="images/header-menu-first-i4.png" width="111" height="15"
+                                      alt="Магазины"/></a></li>
+      </ul>
+    </div>
+    <!-- первое верхнее меню -->
+    <div style="clear: left;"></div>
+    <!-- второе верхнее меню -->
+    <div class="header-menu-second-cont">
+      <table class="header-menu-second">
+        <tr>
+          <td><a href="about.html">О буслике</a></td>
+          <td><a href="news.html">Новости</a></td>
+          <td><a href="advices.html">Советы педиатра</a></td>
+          <td><a href="partners.html">Партнерам</a></td>
+          <td><a href="vacancy.html">Карьера</a></td>
+          <td><a href="contacts.html">Контакты</a></td>
+        </tr>
+      </table>
+    </div>
+    <!-- второе верхнее меню -->
+  </div>
+</div>
+<!-- /шапка -->
+<div class="clear"></div>
+
+<!-- основной контент -->
+<div class="catalog-cont white-bg-rounded clearfix">
+<div class="title-other visual5">
+  Фотогалерея
+</div>
+<div class="title-other-down-bg gradient">&nbsp;</div>
+<div class="sidebar2">
+  <div class="bg-rounded">
+    <!-- горячая линия -->
+    <div class="hotline-cont">
+      <div class="title">
+        <img src="images/hotline-title.png" width="142" height="38" alt="Горячая линия"/><br/>
+
+        <p>В будние дни,<br/>
+          с 9:00 до 18:00</p>
+      </div>
+      <div class="bubble">
+        <div class="text1">
+          По вопросам питания<br/>
+          детей первого года жизни<br/>
+          отвечает врач-педиатр.
+        </div>
+        <a class="button-red button-quest" href="#">Задать вопрос<br/>online</a>
+
+        <div class="button-archive"><a href="#">Архив<br/>ответов</a></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- /горячая линия -->
+    <!-- баннер -->
+    <div class="bg-rounded banner-small">
+      <a href="#"><img src="images/banner1.jpg" width="250" height="200" alt="Акция"/></a>
+    </div>
+    <!-- /баннер -->
+    <!-- баннер -->
+    <div class="white-bg-rounded banner-small">
+      <a href="#"><img src="images/banner2.jpg" width="250" height="200" alt="Акция"/></a>
+    </div>
+    <!-- /баннер -->
+    <!-- баннер -->
+    <div class="white-bg-rounded banner-small">
+      <a href="#"><img src="images/banner3.jpg" width="250" height="200" alt="Акция"/></a>
+    </div>
+    <!-- /баннер -->
+  </div>
+</div>
+<div class="sidebar5exp">
+  <div class="sidebar5">
+
+    <div class="other-left-menu">
+      <ul>
+        <li class="active"><a href="#">Название раздела</a></li>
+        <li><a href="#">Название раздела галереи</a></li>
+        <li><a href="#">Название раздела</a></li>
+      </ul>
+    </div>
+    <div class="advices-person-bg-up"></div>
+    <div class="question-form-cont">
+      Загрузить фотографию
+      <div class="input">
+        <label for="theme">Выберите раздел:</label><br/>
+        <select id="theme">
+          <option>Раздел №1</option>
+          <option>Раздел №2</option>
+          <option>Раздел №3</option>
+        </select>
+      </div>
+      <div class="input">
+        <label for="album">Выберите альбом:</label><br/>
+        <select id="album">
+          <option>Альбом №1</option>
+          <option>Альбом №2</option>
+          <option>Альбом №3</option>
+        </select>
+      </div>
+      <div class="input">
+        <label for="author">Автор фотографии:</label><br/>
+        <input id="author" type="text"/>
+      </div>
+      <div class="input">
+        <label for="name">Название фотографии:</label><br/>
+        <input id="name" type="text"/>
+      </div>
+      <div class="input submit">
+        <a href="#">Отправить</a>
+      </div>
+    </div>
+    <div class="advices-person-bg-down"></div>
+    <div class="gallery-info-right">
+      <img src="images/gallery-info-icon.png" width="22" height="22" alt=""/>
+
+      <p>Максимальные размеры
+        фотографии: 800 пикселей
+        по ширине или высоте.</p>
+
+      <p>Ваша фотография появится
+        в альбоме просле проверки
+        администратором сайта.
+        Спасибо!</p>
+    </div>
+
+  </div>
+</div>
+<div class="sidebar4">
+<div class="other-title-inner">
+  Название раздела
+</div>
+<div class="content-cont">
+
+<div class="pager-cont">
+  <a class="allin" href="#">Все на одной странице</a>
+  <ul class="catalog-pager">
+    <li class="pager-prev"><a href="#">Назад</a></li>
+    <li class="pager-active">1</li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li>...</li>
+    <li><a href="#">23</a></li>
+    <li class="pager-next"><a href="#">Вперед</a></li>
+  </ul>
+  <div style="clear: left;"></div>
+</div>
+
+<div class="gallery-album">
+
+  <div class="title">
+    Название альбома
+  </div>
+  <div class="sort-cont">
+    <div class="input">
+      <span class="bold">Сортировать по</span>
+      <select>
+        <option>Альбом №1</option>
+        <option>Альбом №2</option>
+        <option>Альбом №3</option>
+      </select>
+    </div>
+    <a class="gallery-allin" href="#">Все на одной странице</a>
+    <ul class="gallery-pager">
+      <li class="pager-prev"><a href="#">Назад</a></li>
+      <li class="pager-active">1</li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li>...</li>
+      <li><a href="#">23</a></li>
+      <li class="pager-next"><a href="#">Вперед</a></li>
+    </ul>
+    <div style="clear: left;"></div>
+  </div>
+
+  <!-- фотография -->
+  <div class="gallery-photo-item">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <!-- /фотография -->
+  <!-- фотография -->
+  <div class="gallery-photo-item gallery-photo-item-last">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <div style="clear: left;"></div>
+  <!-- /фотография -->
+  <!-- фотография -->
+  <div class="gallery-photo-item">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <!-- /фотография -->
+  <!-- фотография -->
+  <div class="gallery-photo-item gallery-photo-item-last">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <div style="clear: left;"></div>
+  <!-- /фотография -->
+  <!-- фотография -->
+  <div class="gallery-photo-item">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <!-- /фотография -->
+  <!-- фотография -->
+  <div class="gallery-photo-item gallery-photo-item-last">
+    <div class="date">
+      12.03.2012
+    </div>
+    <a class="name" href="#">Название фотографии</a>
+
+    <div class="author">
+      Автор фотографии
+    </div>
+    <div class="pic">
+      <img src="images/gallery-album-pic1.png" width="177" height="199" alt=""/>
+    </div>
+    <div class="vote-cont">
+      <a href="#">Голосовать</a>
+
+      <div class="golosa"><span class="bold">134</span> голосов</div>
+      <div style="clear: left;"></div>
+    </div>
+  </div>
+  <div style="clear: left;"></div>
+  <!-- /фотография -->
+
+  <div class="sort-cont">
+    <div class="input">
+      <span class="bold">Сортировать по</span>
+      <select>
+        <option>Альбом №1</option>
+        <option>Альбом №2</option>
+        <option>Альбом №3</option>
+      </select>
+    </div>
+    <a class="gallery-allin" href="#">Все на одной странице</a>
+    <ul class="gallery-pager">
+      <li class="pager-prev"><a href="#">Назад</a></li>
+      <li class="pager-active">1</li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li>...</li>
+      <li><a href="#">23</a></li>
+      <li class="pager-next"><a href="#">Вперед</a></li>
+    </ul>
+    <div style="clear: left;"></div>
+  </div>
+</div>
+
+<div class="pager-cont">
+  <a class="allin" href="#">Все на одной странице</a>
+  <ul class="catalog-pager">
+    <li class="pager-prev"><a href="#">Назад</a></li>
+    <li class="pager-active">1</li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li>...</li>
+    <li><a href="#">23</a></li>
+    <li class="pager-next"><a href="#">Вперед</a></li>
+  </ul>
+  <div style="clear: left;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+  <div class="copy">
+    &copy; 2011 Сеть супермаректов для детей «Буслик»<br/>
+    СООО «ТПГ Вест Ост Юнион»
+  </div>
+  <a class="brands-link" href="#" onclick="return false;">Бренды представленные в магазине</a>
+</div>
+</div>
+<div class="footer-brands">
+  <div class="dashed-raz-brown"></div>
+  <div class="inner-cont">
+    <ul class="brands-logos clearfix">
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="216" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="136" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+      <li><a href="#"><img src="images/logo-brand1.png" width="116" height="60" alt="Бренд"/></a></li>
+    </ul>
+  </div>
+  <div class="solid-raz-brown marginb20"></div>
+</div>
+</body>
+</html>
