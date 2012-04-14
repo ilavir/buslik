@@ -1916,7 +1916,65 @@ div.tels {
   border-bottom: dotted 1px #ace0ed;
 }
 
+.searchp-item a:link, .searchp-item a:visited {
+  color: #236187;
+}
+
+.searchp-item a:hover, .searchp-item a:active {
+  color: #f1524f;
+}
+
 /* /поиск */
+/* фотогалерея */
+.gallery-albums-cont .item {
+  margin: 20px 0;
+  border: solid 1px #a4e2f2;
+  -webkit-border-radius: 0 15px 15px 15px;
+  -moz-border-radius: 0 15px 15px 15px;
+  border-radius: 0 15px 15px 15px;
+}
+
+.gallery-albums-cont a.gallery-albums:link, .gallery-albums-cont a.gallery-albums:visited {
+  color: #236187;
+  text-decoration: none;
+}
+
+.gallery-albums-cont a.gallery-albums:hover .title, .gallery-albums-cont a.gallery-albums:active .title {
+  color: #f1524f;
+}
+
+.gallery-albums-cont .item .title {
+  padding: 8px 20px;
+  font: normal 18px Arial;
+  border-bottom: dotted 1px #a4e2f2;
+}
+
+.gallery-albums-cont .item .inner {
+  padding: 10px 20px;
+}
+
+.gallery-albums-cont .item .inner table {
+  width: 100%;
+}
+
+.gallery-albums-cont .item .inner table td {
+  vertical-align: middle;
+}
+
+.gallery-albums-cont .item .inner .pic {
+  width: 220px;
+  text-align: center;
+}
+
+.gallery-albums-cont .item .inner .text {
+  padding-left: 20px;
+}
+
+.gallery-info-right {
+  margin: 20px;
+}
+
+/* /фотогалерея */
 .highlight-red18 {
   color: #d34c4a;
   font: normal 18px Arial;
