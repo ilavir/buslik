@@ -10,3 +10,15 @@ $('.footer .brands-link').live("click", function () {
     //$(this).removeClass('filter-search-bga').addClass('filter-search-bg');
   }
 });
+
+$('.faq-item-cont .item a').live("click", function () {
+  var $answer = $(this).closest('.item').children('.answer');
+  var answerToggle = $answer.css('display');
+  if (answerToggle == 'none') {
+    $($answer).animate({height:"toggle"}, 1500);
+    $(this).text('Скрыть ответ').removeClass('open').addClass('close');
+  } else {
+    $($answer).animate({height:"toggle"}, 1500);
+    $(this).text('Посмотреть ответ').removeClass('close').addClass('open');
+  }
+});
